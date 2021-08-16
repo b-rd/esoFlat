@@ -1,7 +1,7 @@
 # esoFlat
 ![Image](https://github.com/b-rd/esoFlat/blob/main/preview.png)
 
-Flat theme for eso/eso
+Flat theme for getEso forum software (![Link](https://github.com/geteso/eso/))
 =========
 Installation instructions:
 
