@@ -7,7 +7,7 @@ if (!defined("IN_ESO")) exit;
 class EsoFlat extends Skin {
 
 var $name = "Flat";
-var $version = "0.1.0";
+var $version = "0.1.1";
 var $author = "berd";
 var $numberOfColors = 27;
 
