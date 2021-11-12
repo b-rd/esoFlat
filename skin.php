@@ -1,13 +1,13 @@
 <?php
-// Aluminum/skin.php
-// Aluminum skin file.
+// esoFlat/skin.php
+// esoFlat skin file.
 
 if (!defined("IN_ESO")) exit;
 
-class EsoFlat extends Skin {
+class esoFlat extends Skin {
 
 var $name = "Flat";
-var $version = "0.1.3";
+var $version = "0.1.4";
 var $author = "berd";
 var $numberOfColors = 27;
 
