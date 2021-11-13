@@ -11,11 +11,15 @@ var $version = "0.1.4";
 var $author = "berd";
 var $numberOfColors = 27;
 
+
 // Add stylesheets and a favicon to the page header.
 function init()
 {
 	global $config;
+	$this->eso->addCSS("skins/base.css");
 	$this->eso->addCSS("skins/{$config["skin"]}/styles.css");
+	$this->eso->addCSS("skins/ie6.css", "ie6");
+	$this->eso->addCSS("skins/ie7.css", "ie7");
 	$this->eso->addToHead("<link rel='shortcut icon' type='image/ico' href='skins/{$config["skin"]}/favicon.ico'/>");
 }
 
